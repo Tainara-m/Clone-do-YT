@@ -1,0 +1,124 @@
+html, body {
+    scroll-behavior: smooth;
+    overscroll-behavior: none; /* bloqueia o scrool além do conteúdo */
+    scrollbar-width: none; /* esconde a barra (FireFox) */
+    margin: 0;
+}
+
+/* esconde a barra (Chrome, Safari e Edge) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+#menu{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 10vh;
+  gap: 30px;
+}
+
+.hm{
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  gap:40px;
+  align-items: center;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 45px;
+  margin-left: 435px;
+}
+
+.far{
+  font-size: 1.7rem;
+  font-weight: lighter;
+}
+
+#yt{
+  width: 120px;
+  height: auto;
+}
+
+#search{
+  border: 1px solid #000;
+  width: 400px;
+  margin-left: 200px;
+}
+
+.fa-keyboard{
+  margin: 2px 360px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+  text-decoration:none;
+  color: gray;
+  margin: 15px 15px;
+  width: 250px;
+  height: 90vh;
+  margin: 0;
+}
+
+.nav{
+  margin-top: 50px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+}
+
+.videos{
+  width: 80vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 410px 410px 410px 410px;
+  grid-template-rows: 250px 250px 250px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.video{
+  height: 260px;
+  width: 280px;
+}
+
+.page{
+  width: 350px;
+  height: 140px;
+}
+
+.details{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.5em;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.channel{
+  width: 40px;
+  height: 40px;
+  border-radius: 99%;
+}
+
+.sub{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+  color: gray;
+  line-height: 1px;
+}
